@@ -10,13 +10,55 @@
     <title>Oluwafemi Odekunle</title>
 
     <link rel="stylesheet" href="styles.css" />
+
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   </head>
- 
+
   <body>
     <h1>Oluwafemi Lab 3</h1>
-    <script src="script.js"></script>
+
+    <div class="carousel">
+      <button class="carousel__button carousel__button--left is-hidden">
+        <
+      </button>
+      <div class="carousel__track-container">
+        <ul class="carousel__track">
+          <li class="carousel__slide current-slide">
+            <img class="carousel__image" src="images/onigiri_1.png" alt="" />
+          </li>
+          <li class="carousel__slide">
+            <img class="carousel__image" src="images/onigiri_2.png" alt="" />
+          </li>
+          <li class="carousel__slide">
+            <img class="carousel__image" src="images/onigiri_3.png" alt="" />
+          </li>
+          <li class="carousel__slide">
+            <img class="carousel__image" src="images/onigiri_4.png" alt="" />
+          </li>
+          <li class="carousel__slide">
+            <img class="carousel__image" src="images/roll_1.png" alt="" />
+          </li>
+          <li class="carousel__slide">
+            <img class="carousel__image" src="images/roll_2.png" alt="" />
+          </li>
+          <li class="carousel__slide">
+            <img class="carousel__image" src="images/roll_3.png" alt="" />
+          </li>
+        </ul>
+      </div>
+      <button class="carousel__button carousel__button--right">></button>
+      <div class="carousel__nav">
+        <button class="carousel__indicator current-slide"></button>
+        <button class="carousel__indicator"></button>
+        <button class="carousel__indicator"></button>
+        <button class="carousel__indicator"></button>
+        <button class="carousel__indicator"></button>
+        <button class="carousel__indicator"></button>
+        <button class="carousel__indicator"></button>
+      </div>
+    </div>
   </body>
+  <script type="text/javascript" src="script.js"></script>
 </html>
